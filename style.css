@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(backphoto.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+div.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    boder:1px soid rgba(255, 255, 255, 0.24);
+    box-shadow: 2px 2px 15px
+    rgba(0,0,0,0.3);
+    color: #fff;
+    width: 600px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-bottom: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: aquamarine;
+    box-shadow: inset 1px 1px 5px;
+    rgba(0,0,0,0.3);
+}
+input#phone{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-bottom: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: aquamarine;
+    box-shadow: inset 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+input#male{
+    background-color: rgb(12, 12, 218);
+    box-shadow: inset 2px 2px 5px
+    aquamarine;
+}
+input#female{
+    background-color: rgb(12, 12, 218);
+    box-shadow: inset 2px 2px 5px
+    aquamarine;
+}
+input#submit{
+    width:200px;
+    padding: 7px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: aqua;
+    cursor: pointer;
+    border: 1px solid
+    rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px
+    rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input#text{
+    width: 500px;
+    border: 1px solid #ddd;
+    border-bottom: 3px;
+    outline: 0;
+    padding: 25px;
+    background-color: aquamarine;
+    box-shadow: inset 1px 1px 5px;
+    rgba(0,0,0,0.3);
+}
+label,span,h1{
+    text-shadow: 1px 1px 5px
+    rgba(0, 0, 0, 0.3);
+}

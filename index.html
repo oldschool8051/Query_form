@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>query-form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>REGISTER YOUR QUERY HERE !!</h1>
+        <div class="register">
+            <form action="connect.php" method="POST">
+                <label>Enter Your First Name</label>
+                <br>
+                <input type="text" id="name" placeholder="type first name" name="firstname"/>
+                <br><br>
+                <label>Enter Your Last Name</label>
+                <br>
+                <input type="text" id="name" placeholder="type last name" name="lastname"/>
+                <br><br>
+                <label>Enter Your Email</label>
+                <br>
+                <input type="text" id="name" placeholder="zyz@gmail.com" name="Email"/>
+                <br><br>
+                <label>Enter Your Contact number</label>
+                <br>
+                <input type="tel" id="phone" placeholder="10-digit number" name="number"/>
+                <br><br>
+                <label>Enter Your Parmanent Address</label>
+                <br>
+                <input type="text" id="name" placeholder="full address" name="address"/>
+                <br><br>
+                <label>Enter your Product ID</label>
+                <br>
+                <input type="tel" id="name" placeholder="Enter valid id" name="productid"/>
+                <br><br>
+                <label>State</label>
+                <input type="text"  id="name" name="state"/>
+                <br><br>
+                <label>Gender:</label>
+                <input type="radio" name="gender"
+                id="male" value="m"> &nbsp;
+                <span id="male">Male</span>
+                &nbsp;&nbsp;
+                <input type="radio" name="gender" id="female" value="f">&nbsp;
+                <span id="female">Female</span>
+                <br><br>
+                <label>Query Description</label>
+                <br>
+                <input type="text" id="text" placeholder="max 250 words" name="query"/>
+                <br><br>
+                <input type="submit" value="submit" id="submit" name="submit"/>
+        </form>
+        </div><!--end of register-->
+</body>
+</html>
